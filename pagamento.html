@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NERVO™ — Pagamento Seguro. Executive Cognitive Foundation Protocol." />
+  <title>Pagamento Seguro — NERVO™</title>
+  <link rel="stylesheet" href="pagamento.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Bebas+Neue&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+
+  <!-- SECURITY TOP BAR -->
+  <div class="security-bar">
+    <span>🔒</span>
+    <span>Ambiente seguro — SSL certificado</span>
+    <span class="ssl-pulse"></span>
+  </div>
+
+  <!-- NAV -->
+  <nav class="pay-nav">
+    <div class="pay-nav-inner">
+      <a href="index.html" class="pay-nav-logo" title="Voltar">NERVO<sup>™</sup></a>
+      <div class="pay-secure-badge">
+        <span class="badge-dot"></span>
+        Pagamento Seguro
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="pay-hero">
+    <div class="pay-hero-glow"></div>
+    <div class="container">
+      <p class="pay-hero-eyebrow reveal">Executive Cognitive Foundation Protocol</p>
+      <h1 class="pay-hero-title reveal">
+        Você está a um passo<br/>de acessar o <span class="text-accent">protocolo.</span>
+      </h1>
+      <p class="pay-hero-desc reveal">
+        Projetado para proteger a clareza mental em ambientes de alta responsabilidade.
+      </p>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <main class="pay-main">
+    <div class="container pay-grid">
+
+      <!-- ── LEFT: RESUMO ── -->
+      <aside class="pay-summary">
+        <div class="summary-card reveal">
+          <div class="sc-logo">NERVO<sup>™</sup></div>
+          <div class="sc-subtitle">Executive Cognitive Foundation Protocol</div>
+
+          <div class="sc-divider"></div>
+
+          <p class="sc-section-label">O que você está adquirindo</p>
+          <p class="sc-product">Acesso completo ao NERVO™<br/>Executive Cognitive Foundation Protocol</p>
+
+          <div class="sc-divider"></div>
+
+          <p class="sc-section-label">Inclui:</p>
+          <ul class="sc-days">
+            <li>
+              <span class="sc-day-num">Dia 01</span>
+              <span>Cognitive Autopilot Disruption</span>
+            </li>
+            <li>
+              <span class="sc-day-num">Dia 02</span>
+              <span>Pressure Response Stabilization</span>
+            </li>
+            <li>
+              <span class="sc-day-num">Dia 03</span>
+              <span>Executive Continuity Integration</span>
+            </li>
+          </ul>
+
+          <div class="sc-divider"></div>
+
+          <p class="sc-section-label">Mais:</p>
+          <ul class="sc-extras">
+            <li><span>⊞</span> Sistema AIS™ Cognitive Control</li>
+            <li><span>◻</span> Exercícios práticos e simulações</li>
+            <li><span>◎</span> Guia de aplicação executiva</li>
+            <li><span>▣</span> PDF completo do protocolo</li>
+          </ul>
+
+          <div class="sc-divider"></div>
+
+          <p class="sc-access-note">Acesso privado · Protocolo repetível.</p>
+
+          <div class="sc-price-block">
+            <div class="sc-price">R$997</div>
+            <div class="sc-price-note">Pagamento único · Acesso vitalício</div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ── RIGHT: PAGAMENTO ── -->
+      <section class="pay-options">
+
+        <h2 class="pay-options-title reveal">Escolha sua forma de pagamento</h2>
+
+        <!-- TABS -->
+        <div class="pay-tabs reveal">
+          <button class="pay-tab active" data-tab="pix" onclick="switchTab('pix')">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            PIX
+          </button>
+          <button class="pay-tab" data-tab="card" onclick="switchTab('card')">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            Cartão de Crédito
+          </button>
+        </div>
+
+        <!-- PIX PANEL -->
+        <div class="pay-panel active" id="panel-pix">
+
+          <div class="panel-info reveal">
+            <h3 class="panel-title">Pagamento via PIX</h3>
+            <p class="panel-desc">Pagamento à vista. Liberação automática do acesso após confirmação.</p>
+          </div>
+
+          <div class="pix-steps-row reveal">
+            <div class="pix-step-item">
+              <div class="ps-num">1</div>
+              <div class="ps-text">Abra o app do seu banco</div>
+            </div>
+            <div class="ps-arrow">→</div>
+            <div class="pix-step-item">
+              <div class="ps-num">2</div>
+              <div class="ps-text">Escaneie o QR Code ou copie o código</div>
+            </div>
+            <div class="ps-arrow">→</div>
+            <div class="pix-step-item">
+              <div class="ps-num">3</div>
+              <div class="ps-text">Confirme o pagamento</div>
+            </div>
+          </div>
+
+          <div class="pix-qr-section reveal">
+            <p class="qr-label">Escaneie com seu app bancário</p>
+            <div class="qr-frame">
+              <img
+                src="nervopix.png"
+                alt="QR Code PIX NERVO™ — R$997"
+                class="qr-img"
+                width="220"
+                height="220"
+              />
+            </div>
+            <div class="qr-amount">R$ 997,00</div>
+            <div class="qr-name">JULIANE DA SILVA CERQUEIR</div>
+          </div>
+
+          <div class="pix-code-section reveal">
+            <p class="pix-code-label">Ou copie o código PIX (Copia e Cola):</p>
+            <div class="pix-copy-row">
+              <input
+                type="text"
+                id="pixCodeInput"
+                class="pix-code-input"
+                readonly
+                value="00020101021226880014BR.GOV.BCB.PIX0140vagustravagusnervesomaticregul@gmail.com0222Pagamento vastraneuror5204000053039865406997.005802BR5925JULIANE DA SILVA CERQUEIR6015SAO GONCALO DOS62290525QRCCygl68hUdgx0ES90eVXaHP6304C484"
+              />
+              <button class="btn-copy-pix" id="copyPixBtn" onclick="copyPix()">
+                <span id="copyPixText">Copiar</span>
+              </button>
+            </div>
+          </div>
+
+          <button
+             class="btn-pay btn-pay--pix reveal"
+             onclick="copyPixAndConfirm()">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3"/></svg>
+            <span id="pixBtnText">Pagar com PIX — Copiar Código</span>
+          </button>
+
+          <p class="pay-instant-note reveal">
+            ⚡ Acesso imediato após confirmação do pagamento.
+          </p>
+        </div>
+
+        <!-- CARD PANEL -->
+        <div class="pay-panel" id="panel-card">
+
+          <div class="panel-info reveal">
+            <h3 class="panel-title">Cartão de Crédito</h3>
+            <p class="panel-desc">Parcele em até 10x no cartão. Acesso liberado após confirmação.</p>
+          </div>
+
+          <div class="card-parcels reveal">
+            <div class="parcel-grid">
+              <div class="parcel-item parcel-best">
+                <div class="parcel-label">À vista</div>
+                <div class="parcel-val">R$ 997,00</div>
+                <div class="parcel-badge">Melhor opção</div>
+              </div>
+              <div class="parcel-item">
+                <div class="parcel-label">2× de</div>
+                <div class="parcel-val">R$ 498,50</div>
+              </div>
+              <div class="parcel-item">
+                <div class="parcel-label">5× de</div>
+                <div class="parcel-val">R$ 199,40</div>
+              </div>
+              <div class="parcel-item">
+                <div class="parcel-label">10× de</div>
+                <div class="parcel-val">R$ 99,70</div>
+              </div>
+            </div>
+            <p class="parcel-note">* Parcelamento sujeito aos juros da operadora do cartão.</p>
+          </div>
+
+          <a href="https://link.infinitepay.io/vastraneuroregulacaoltda/VC1DLUEtUg-2TMiImdOGH-997,00"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="btn-pay btn-pay--card reveal">
+            Pagar com Cartão
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+
+          <p class="pay-instant-note reveal">
+            ⚡ Acesso imediato após confirmação do pagamento.
+          </p>
+        </div>
+
+        <!-- SEGURANÇA -->
+        <div class="security-block reveal">
+          <div class="sec-row">
+            <span class="sec-check">✔</span>
+            <span>Pagamento processado em ambiente seguro</span>
+          </div>
+          <div class="sec-row">
+            <span class="sec-check">✔</span>
+            <span>Certificação SSL ativa</span>
+          </div>
+          <div class="sec-row">
+            <span class="sec-check">✔</span>
+            <span>Acesso liberado automaticamente após pagamento</span>
+          </div>
+        </div>
+
+        <!-- CONFIDENCIALIDADE -->
+        <div class="conf-block reveal">
+          <p class="conf-title">Confidencialidade</p>
+          <p class="conf-text">
+            NERVO™ foi desenvolvido para aplicação privada.<br/>
+            Seu acesso é pessoal e confidencial.
+          </p>
+        </div>
+
+        <!-- NOTA LEGAL -->
+        <div class="legal-block reveal">
+          <p class="legal-label">Nota importante</p>
+          <p class="legal-text">
+            NERVO™ é um protocolo educacional de arquitetura cognitiva executiva.
+            Ele não diagnostica, trata ou cura qualquer condição médica ou psicológica.
+          </p>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+  <!-- RODAPÉ PSICOLÓGICO -->
+  <div class="psych-bar">
+    <div class="container">
+      <p>Projetado para líderes que tomam decisões sob pressão constante.</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="pay-footer">
+    <div class="container pay-footer-inner">
+      <span class="f-logo">NERVO<sup>™</sup></span>
+      <p class="f-copy">© 2025 NERVO™. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="pagamento.js"></script>
+</body>
+</html>
